@@ -9,4 +9,3 @@ RUN cp -rf Applight/* . &&\
      rm -rf Applight 
 EXPOSE 80
 CMD ["/usr/sbin/httpd", "-D", "FOREGROUND"]
-RUN mkdir vikashkumar
