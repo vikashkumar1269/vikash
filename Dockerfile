@@ -8,4 +8,4 @@ RUN unzip applight.zip
 RUN cp -rf Applight/* . &&\ 
      rm -rf Applight 
 EXPOSE 80
-CMD ["/usr/sbin/httpd", "-D", "FOREGROUND"]
+CMD ["/usr/sbin/httpd", "-D", "FOREGROUND"] 
